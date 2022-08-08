@@ -18,7 +18,7 @@ try:
     with conn.cursor() as cursor:
 
         # 查詢資料SQL語法
-        command = "SELECT PREV_ANNUITY_median, PREV_CREDIT_sum,RATE_DOWN_PAYMENT_median, DAYS_DECISION_median,CNT_PAYMENT_median, DAYS_PERIOD_median,YIELD_high, HOUR_APPR_PROCESS_START_y, WEEKDAY_APPR_PROCESS_START FROM database_prev"
+        command = "SELECT PREV_ANNUITY_median, PREV_CREDIT_sum,RATE_DOWN_PAYMENT_median, DAYS_DECISION_median,CNT_PAYMENT_median, DAYS_PERIOD_median,YIELD_high, HOUR_APPR_PROCESS_START_y, WEEKDAY_APPR_PROCESS_START, 'Cash through the bank' FROM database_prev"
 
         # 執行指令
         cursor.execute(command)
