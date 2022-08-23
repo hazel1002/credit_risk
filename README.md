@@ -18,3 +18,5 @@ Folder Description
 4. main_ML -> 客戶基本資料模型訓練
 5. main_prev_ML -> 客戶基本資料 + 客戶過去信貸資料 模型訓練
 6. prev_ML -> 客戶過去信貸資料模型訓練
+7. select_from_db -> 資料庫選取特徵
+8. de_main_ML -> 加上去識別化特徵的客戶基本資料模型訓練
